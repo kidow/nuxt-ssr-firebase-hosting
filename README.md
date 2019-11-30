@@ -1,6 +1,6 @@
-# src
+# nuxt-firebase-hosting
 
-> My impeccable Nuxt.js project
+> My dandy Nuxt.js project
 
 ## Build Setup
 

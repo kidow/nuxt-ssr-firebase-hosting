@@ -1,6 +1,6 @@
 module.exports = {
   mode: "universal",
-
+  srcDir: "src/",
   head: {
     title: process.env.npm_package_name || "",
     meta: [

@@ -1,14 +1,15 @@
 {
-  "name": "src",
+  "name": "nuxt-firebase-hosting",
   "version": "1.0.0",
-  "description": "My impeccable Nuxt.js project",
+  "description": "My dandy Nuxt.js project",
   "author": "kidow",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
