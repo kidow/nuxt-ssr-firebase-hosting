@@ -1,5 +1,5 @@
 const functions = require("firebase-functions");
-const { Nuxt } = require("nuxt-start");
+const { Nuxt } = require("nuxt");
 const express = require("express");
 
 const app = express();
@@ -9,8 +9,7 @@ const nuxtConfig = require("./nuxt.config.js");
 const config = {
   ...nuxtConfig,
   dev: false,
-  debug: false,
-  buildDir: "nuxt"
+  debug: false
 };
 const nuxt = new Nuxt(config);
 

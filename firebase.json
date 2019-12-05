@@ -1,9 +1,7 @@
 {
   "functions": {
-    "source": "functions",
-    "predeploy": [
-      "npm run build && rm -rf functions/nuxt && cp -r .nuxt/ functions/nuxt/"
-    ]
+    "source": ".",
+    "predeploy": ["npm run build"]
   },
   "hosting": {
     "predeploy": [
